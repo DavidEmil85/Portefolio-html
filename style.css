@@ -43,21 +43,14 @@ img {
 
 h4 {
   color: white;
-  text-align: left;
+  text-align: center;
   font-size: 40px;
   padding-top: 170px;
-  padding-left: 160px;
 }
 
 h5 {
   color: white;
   text-align: left;
-  border-style: dashed;
-  border-width: 3px;
-  border-left-width: 10px;
-  border-right-width: 10px;
-  border-color: white;
-  padding: 15px;
 }
 
 @keyframes spin {
@@ -84,10 +77,14 @@ h5 {
   display: flex;
   width: 40%;
   border: solid white;
+  padding: 15px;
+  background-color: black;
 }
 
 .kontaktinfo {
   display: flex;
   width: 40%;
   border: solid white;
+  padding: 15px;
+  background-color: black;
 }
