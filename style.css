@@ -51,8 +51,13 @@ h4 {
 
 h5 {
   color: white;
-  padding-left: 160px;
   text-align: left;
+  border-style: dashed;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: white;
+  padding: 15px;
 }
 
 @keyframes spin {
@@ -66,4 +71,23 @@ h5 {
 
 .spinning:hover {
   animation: spin 5s infinite;
+}
+
+.infocontainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Ommeginfo {
+  display: flex;
+  width: 40%;
+  border: solid white;
+}
+
+.kontaktinfo {
+  display: flex;
+  width: 40%;
+  border: solid white;
 }
