@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to left, #4f5253, #737574);
+  background: linear-gradient(to right, #424444, #737574);
 }
 
 .topnav {
@@ -43,7 +43,14 @@ img {
 
 h4 {
   color: white;
-  text-align: center;
-  font-size: 30px;
-  padding-top: 150px;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 170px;
+  padding-left: 160px;
+}
+
+h5 {
+  color: white;
+  padding-left: 160px;
+  text-align: left;
 }
