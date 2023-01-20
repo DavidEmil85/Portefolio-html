@@ -132,3 +132,23 @@ h5 {
   padding: 10px;
   flex-direction: row;
 }
+
+.skills {
+  display: flex;
+  width: 40%;
+  border: solid white;
+  padding: 15px;
+  background-color: #333;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.images {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  width: 35%;
+  border: solid white;
+  padding: 15px;
+  background-color: #333;
+}
