@@ -16,6 +16,10 @@ body {
   font-size: 17px;
 }
 
+.logo {
+  text-align: left;
+}
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -82,6 +86,39 @@ h5 {
 }
 
 .kontaktinfo {
+  display: flex;
+  width: 40%;
+  border: solid white;
+  padding: 15px;
+  background-color: #333;
+  font-size: xx-large;
+}
+
+.prosjekter {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.Manchesterunited {
+  display: flex;
+  width: 40%;
+  border: solid white;
+  padding: 15px;
+  background-color: #333;
+}
+
+.Kalkulator {
+  display: flex;
+  width: 40%;
+  border: solid white;
+  padding: 15px;
+  background-color: #333;
+}
+
+.julekalender {
   display: flex;
   width: 40%;
   border: solid white;
