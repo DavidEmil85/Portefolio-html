@@ -125,3 +125,11 @@ h5 {
   padding: 15px;
   background-color: #333;
 }
+
+.skills {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+}
