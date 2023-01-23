@@ -99,6 +99,7 @@ h5 {
   flex-direction: row;
   justify-content: space-between;
   padding: 0;
+  text-align: center;
 }
 
 .Manchesterunited {
@@ -192,7 +193,7 @@ html {
 .topbutton {
   cursor: pointer;
   display: flex;
-  margin-top: 15%;
+  margin-bottom: 0;
   justify-content: center;
   align-items: center;
   size: 7%;
@@ -202,4 +203,9 @@ p {
   align-items: center;
   flex-direction: column-reverse;
   color: white;
+}
+
+.Kontaktinfo {
+  text-align: right;
+  padding-right: 10%;
 }
