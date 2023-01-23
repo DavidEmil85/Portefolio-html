@@ -87,18 +87,10 @@ h5 {
   margin: 0;
 }
 
-.overskrift2 {
-  margin: 2%;
-  padding: 0;
-  margin-bottom: 5%;
-}
-
 .prosjekter {
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0;
   text-align: center;
 }
 
