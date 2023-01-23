@@ -77,14 +77,13 @@ h5 {
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
+  justify-content: center;
 }
 
 .Ommeginfo {
   display: flex;
   width: 40%;
-  border: solid white;
   padding: 15px;
-  background-color: #333;
   margin: 0;
 }
 
@@ -92,18 +91,6 @@ h5 {
   margin: 2%;
   padding: 0;
   margin-bottom: 5%;
-}
-
-.kontaktinfo {
-  display: flex;
-  width: 40%;
-  border: solid white;
-  padding: 0;
-  background-color: #333;
-  font-size: xx-large;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .prosjekter {
@@ -148,7 +135,7 @@ h5 {
 
 .Skills {
   display: flex;
-  width: 90%;
+  width: 60%;
   border: solid white;
   padding: 15px;
   background-color: #333;
@@ -208,5 +195,11 @@ html {
   margin-top: 15%;
   justify-content: center;
   align-items: center;
-  size: 4%;
+  size: 7%;
+}
+
+p {
+  align-items: center;
+  flex-direction: column-reverse;
+  color: white;
 }
