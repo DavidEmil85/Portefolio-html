@@ -157,10 +157,16 @@ html {
   height: 100%;
 }
 
+.icon {
+  font-size: small;
+  align-items: center;
+}
+
 .icon2 {
   height: 50px;
   width: 50px;
   object-fit: cover;
+  font-size: small;
 }
 
 .page3 {
