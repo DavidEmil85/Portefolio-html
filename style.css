@@ -19,6 +19,7 @@ body {
 
 .logo {
   text-align: left;
+  cursor: pointer;
 }
 
 .topnav a:hover {
@@ -84,15 +85,25 @@ h5 {
   border: solid white;
   padding: 15px;
   background-color: #333;
+  margin: 0;
+}
+
+.overskrift2 {
+  margin: 2%;
+  padding: 0;
+  margin-bottom: 5%;
 }
 
 .kontaktinfo {
   display: flex;
   width: 40%;
   border: solid white;
-  padding: 15px;
+  padding: 0;
   background-color: #333;
   font-size: xx-large;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .prosjekter {
@@ -129,26 +140,73 @@ h5 {
 
 .linklogoes {
   display: flex;
+  position: fixed;
   padding: 10px;
-  flex-direction: row;
+  flex-direction: column;
+  top: 85%;
 }
 
-.skills {
+.Skills {
   display: flex;
-  width: 40%;
+  width: 90%;
   border: solid white;
   padding: 15px;
   background-color: #333;
   justify-content: center;
   font-size: xx-large;
+  margin: 0 auto;
 }
 
-.images {
+.icon {
   flex-direction: row;
   justify-content: center;
   display: flex;
-  width: 35%;
-  border: solid white;
+  width: 90%;
   padding: 15px;
   background-color: #333;
+  justify-content: space-between;
+  object-fit: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.projectimg {
+  object-fit: cover;
+  height: 100%;
+}
+
+.icon2 {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+
+.page3 {
+  height: 100vh;
+}
+
+.page2 {
+  height: 100vh;
+}
+
+.page1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.logoimg {
+  width: 40px;
+  height: 40px;
+}
+
+.topbutton {
+  cursor: pointer;
+  display: flex;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+  size: 4%;
 }

@@ -11,7 +11,7 @@
   </head>
 
   <body>
-    <div class="topnav">
+    <div class="topnav" id="navbar">
       <a href="#aboute">Om meg</a>
       <a href="#work">Prosjekter</a>
       <a href="#skills">Skills</a>
@@ -37,9 +37,10 @@
       </div>
     </div>
 
-    <h4>Om meg:</h4>
+    <div class="page1"  id="aboute">
+    
     <div class="infocontainer">
-      <div class="Ommeginfo" id="aboute">
+      <div class="Ommeginfo">
         <h5>
           Hei, Jeg heter David! En ung mann fra Hønefoss på 37 år, bosatt i
           Tønsberg.<br />
@@ -73,6 +74,7 @@
         </h5>
       </div>
     </div>
+    </div>
 
     <marquee behaviour="scroll" direction="left">
       <img
@@ -82,23 +84,25 @@
         style="height: 310px; width: 140px"
       />
     </marquee>
-
+    
+    <div class="page2" id="work">
     <h4>Prosjekter:</h4>
 
     <div class="prosjekter">
       <div class="Manchesterunited">
         <a href="https://github.com/DavidEmil85/Task-1"> 
-        <img src="Old Trafford.jpg" alt="Manchester United" />
+        <img class="projectimg" src="Old Trafford.jpg" alt="Manchester United" />
       </div></a>
       <div class="Kalkulator">
         <a href="https://github.com/DavidEmil85/Javascript-miniprodject-finished">
-        <img src="Kalkukator.png" alt="kalkultator" /></a>
+        <img class="projectimg" src="Kalkukator.png" alt="kalkultator" /></a>
       </div>
       <div class="julekalender">
         <a href="https://christian-kodehode.github.io/Innleveringer/Julekalender/index.html">
-        <img src="Julekaldender.png" alt="julekalender" /></a>
+        <img class="projectimg" src="Julekaldender.png" alt="julekalender" /></a>
       </div>
     </div>
+    
 
     <marquee behaviour="scroll" direction="right">
       <img
@@ -109,24 +113,25 @@
       />
     </marquee>
 
+    <div class="page3" id="skills">
+
     <h4>Skills:</h4>
 
-    <div class="Skills" id="skills">
-      <div class="images">
-        <img src="Css.png" alt="css" style="height: 60px; width: 60px" />
-        <img src="Figma.png" alt="Figma" style="height: 60px; width: 60px" />
-        <img
+    <div class="Skills" >
+      <div class="icon">
+        <img class="icon2" src="Css.png" alt="css" />
+        <img class="icon2" src="Figma.png" alt="Figma"  />
+        <img class="icon2"
           src="Javascript.png"
           alt="javascript"
-          style="height: 60px; width: 60px"
+          
         />
-        <img src="html.png" alt="html" style="height: 60px; width: 60px" />
-        <img src="React.png" alt="react" style="height: 60px; width: 60px" />
-        <img src="Python.png" alt="python" style="height: 60px; width: 60px" />
-        <img
+        <img class="icon2" src="html.png" alt="html" />
+        <img class="icon2" src="React.png" alt="react"/>
+        <img class="icon2" src="Python.png" alt="python"/>
+        <img class="icon2"
           src="Visual studio code.png"
           alt="vscode"
-          style="height: 60px; width: 60px"
         />
       </div>
     </div>
@@ -135,23 +140,26 @@
    
     <div class="linklogoes">
       <div class="githublogo">
-        <a href="https://github.com/DavidEmil85">
+        <a href="https://github.com/DavidEmil85" target="_blank">
           <img
-            src="GitHub-logo.png"
+            src="githubhvit.png"
             alt="githublink"
-            style="height: 80px; width: 190px"
+            class="logoimg"
         /></a>
       </div>
       <div class="linkedin">
         <a
-          href="https://www.linkedin.com/in/david-emil-dahlseng-mauno-63a80a262/"
+          href="https://www.linkedin.com/in/david-emil-dahlseng-mauno-63a80a262/" target="_blank"
         >
           <img
-            src="Linkedinbw.png"
+            src="Linkedinhvit.png"
             alt="linkedinlink"
-            style="height: 70px; width: 70px"
+            class="logoimg"
         /></a>
       </div>
+    </div>
+
+   <a href="#navbar" class="topbutton"> <button>Tilbake til toppen</button></a>
     </div>
   </body>
 </html>
