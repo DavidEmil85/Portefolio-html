@@ -51,12 +51,13 @@ img {
 h4 {
   color: white;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 h5 {
   color: white;
   text-align: left;
+  font-size: medium;
 }
 
 @keyframes spin {
@@ -89,34 +90,17 @@ h5 {
 
 .prosjekter {
   display: flex;
-  width: 100%;
   flex-direction: row;
   text-align: center;
 }
 
-.Manchesterunited {
+.prosjekt {
   display: flex;
   width: 40%;
   border: solid white;
   padding: 15px;
   background-color: #333;
   flex-direction: column;
-}
-
-.Kalkulator {
-  display: flex;
-  width: 40%;
-  border: solid white;
-  padding: 15px;
-  background-color: #333;
-}
-
-.julekalender {
-  display: flex;
-  width: 40%;
-  border: solid white;
-  padding: 15px;
-  background-color: #333;
 }
 
 .linklogoes {
@@ -193,7 +177,7 @@ html {
 .topbutton {
   cursor: pointer;
   display: flex;
-  margin-bottom: 10%;
+  margin-bottom: 0;
   justify-content: center;
   align-items: center;
   size: 7%;
@@ -206,6 +190,7 @@ p {
 }
 
 .Kontaktinfo {
-  text-align: right;
+  text-align: center;
   padding-right: 10%;
+  font-size: large;
 }
