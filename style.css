@@ -101,6 +101,8 @@ h5 {
   padding: 15px;
   background-color: #333;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .linklogoes {
