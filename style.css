@@ -46,6 +46,7 @@ img {
   font-size: 20px;
   padding-left: 20px;
   color: white;
+  text-shadow: 3px 3px black;
 }
 
 h4 {
